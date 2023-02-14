@@ -1,0 +1,17 @@
+channels:
+- uibcdf
+- conda-forge
+- defaults
+dependencies:
+- python
+- setuptools
+- numpy
+- pyunitwizard
+- openmm
+- nglview
+- ipywidgets <8
+- molsysmt
+- pytest
+- pip
+- pytest-cov
+- codecov

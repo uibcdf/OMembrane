@@ -1,0 +1,24 @@
+channels:
+- uibcdf
+- conda-forge
+- defaults
+dependencies:
+- python
+- setuptools
+- numpy
+- pyunitwizard
+- openmm
+- nglview
+- ipywidgets <8
+- molsysmt
+- pytest
+- pip
+- pytest-cov
+- codecov
+- sphinx
+- sphinx_rtd_theme
+- sphinxcontrib-bibtex
+- sphinx-remove-toctrees
+- sphinx-copybutton
+- myst-nb
+- jupyterlab
