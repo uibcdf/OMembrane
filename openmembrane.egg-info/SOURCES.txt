@@ -1,8 +1,0 @@
-README.md
-setup.py
-openmembrane/__init__.py
-openmembrane/functions.py
-openmembrane.egg-info/PKG-INFO
-openmembrane.egg-info/SOURCES.txt
-openmembrane.egg-info/dependency_links.txt
-openmembrane.egg-info/top_level.txt
