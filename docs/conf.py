@@ -8,7 +8,6 @@
 
 import os
 import sys
-import sphinx_rtd_theme
 
 # -- Path setup --------------------------------------------------------------
 
@@ -21,22 +20,21 @@ import sphinx_rtd_theme
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('./../openmembrane'))
-
-print(sys.path)
+import openmembrane
 
 # -- Project information -----------------------------------------------------
 
 project = 'OpenMembrane'
-copyright = '2020, UIBCDF Lab at the Mexico City Childrens Hospital Federico Gomez and authors'
+copyright = ("2023, UIBCDF Lab at the Mexico City Childrens Hospital Federico Gomez and authors."
+             "Computational Molecular Science Python Cookiecutter version 1.5")
 author = 'Liliana M. Moreno Vargas & Diego Prada Gracia'
 
 # The short X.Y version
-version = ''
+version = openmembrane.__version__.split('+')[0]
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = openmembrane.__version__
 
+print(f'version {version}, release {release}')
 
 # -- General configuration ---------------------------------------------------
 
@@ -55,17 +53,38 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'numpydoc',
+    'sphinx.ext.napoleon',
     'sphinx.ext.githubpages',
     'sphinxcontrib.bibtex',
-    'nbsphinx',
-    'recommonmark',
-    'sphinx_markdown_tables'
+    'sphinx.ext.extlinks',
+    'sphinx_remove_toctrees',
+    'sphinx_copybutton',
+    'myst_nb'
 ]
 
+# Myst extensions and options
+
+myst_enable_extensions = [
+    'dollarmath',
+    'amsmath'
+]
+
+myst_heading_anchors = 3
+
+# Autosummary options
+
 autosummary_generate = True
-autodoc_default_options = {'members':True, 'inherited-members':True}
-numpydoc_class_members_toctree = False
+
+# Napoleon settings
+napoleon_numpy_docstring = True
+napoleon_google_docstring = False
+napoleon_use_param = False
+napoleon_use_ivar = True
+
+# sphinxcontrib-bibtex
+bibtex_bibfiles = ['bibliography.bib'] # list of *.bib files
+bibtex_default_style = 'alpha'
+bibtex_encoding = 'utf-8-sig'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -76,10 +95,7 @@ templates_path = ['_templates']
 source_parsers={
 }
 
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown'
-}
+source_suffix = ['.rst', '.md', '.ipynb']
 
 # The master toctree document.
 master_doc = 'index'
@@ -98,11 +114,16 @@ gettext_compact = False
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '**.ipynb_checkpoints', 'old_api', 'freezer']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'default'
 
+# Remove from toctrees
+remove_from_toctrees = []
+for directory in os.walk('api'):
+    if directory[0].endswith('/autosummary'):
+        remove_from_toctrees.append(directory[0]+'/*')
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -125,14 +146,14 @@ html_theme_options = {
     'style_external_links': False,
     # Toc options
     'collapse_navigation': False,
-    'sticky_navigation': True,
+    'sticky_navigation': False,
     'navigation_depth': 4,
     'includehidden': True,
-    'titles_only': False
+    'titles_only': True
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme_path = []
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -142,6 +163,14 @@ html_static_path = ['_static']
 #### I should check
 #### https://github.com/lotharschulz/sphinx-pages/blob/master/conf.py for more
 #### options
+
+# Disable showing Sphinx footer message:
+# "Built with Sphinx using a theme provided by Read the Docs. "
+html_show_sphinx = False
+
+# Disable the Copyright footer for Read the docs at the bottom of the page
+# by setting property html_show_copyright = False
+html_show_copyright = True
 
 # Custom css
 
@@ -158,6 +187,9 @@ html_css_files = [
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+html_show_sourcelink = False
+
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -190,6 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
+    (master_doc, 'openmembrane.tex', 'OpenMembrane Documentation',
+     'openmembrane', 'manual'),
 ]
 
 
@@ -198,6 +232,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
+    (master_doc, 'openmembrane', 'OpenMembrane Documentation',
+     [author], 1)
 ]
 
 
@@ -207,6 +243,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
+    (master_doc, 'openmembrane', 'OpenMembrane Documentation',
+     author, 'openmembrane', 'One line description of project.',
+     'Miscellaneous'),
 ]
 
 
@@ -216,9 +255,6 @@ texinfo_documents = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 #intersphinx_mapping = {'https://docs.python.org/': None}
-
-# stackoverflow.com/questions/12206334
-numpydoc_show_class_members = False
 
 # -- Options for todo extension ----------------------------------------------
 
