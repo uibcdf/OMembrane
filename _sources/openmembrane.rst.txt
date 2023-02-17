@@ -1,0 +1,21 @@
+openmembrane package
+====================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   openmembrane.analysis
+   openmembrane.build
+   openmembrane.demo
+   openmembrane.permeability
+
+Module contents
+---------------
+
+.. automodule:: openmembrane
+   :members:
+   :undoc-members:
+   :show-inheritance:

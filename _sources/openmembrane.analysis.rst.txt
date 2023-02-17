@@ -1,0 +1,21 @@
+openmembrane.analysis package
+=============================
+
+Submodules
+----------
+
+openmembrane.analysis.get\_lineal\_density module
+-------------------------------------------------
+
+.. automodule:: openmembrane.analysis.get_lineal_density
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: openmembrane.analysis
+   :members:
+   :undoc-members:
+   :show-inheritance:

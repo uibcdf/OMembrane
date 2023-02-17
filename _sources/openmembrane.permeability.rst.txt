@@ -1,0 +1,10 @@
+openmembrane.permeability package
+=================================
+
+Module contents
+---------------
+
+.. automodule:: openmembrane.permeability
+   :members:
+   :undoc-members:
+   :show-inheritance:
