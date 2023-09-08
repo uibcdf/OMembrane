@@ -4,16 +4,21 @@ channels:
 - defaults
 dependencies:
 - python
-- setuptools
-- numpy
+- pip
+- setuptools >=61.0
+- versioningit~=2.0
+- molsysmt
 - pyunitwizard
 - openmm
 - nglview
-- ipywidgets <8
-- molsysmt
+- jupyterlab
 - sphinx
-- sphinx_rtd_theme
+- pydata-sphinx-theme
 - sphinxcontrib-bibtex
 - sphinx-remove-toctrees
 - sphinx-copybutton
+- sphinx-design
+- sphinx-favicon
+- sphinx-tabs
 - myst-nb
+- nbsphinx

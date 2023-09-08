@@ -1,1 +1,3 @@
-# OpenMembrane
+# OMembrane
+
+OMembrane (Open Membrane)

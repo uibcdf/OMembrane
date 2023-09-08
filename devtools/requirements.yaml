@@ -5,19 +5,19 @@ setup:
     - defaults
   dependencies: &setup_dependencies
     - python
-    - setuptools
-    - numpy
+    - pip
+    - setuptools >=61.0
+    - versioningit~=2.0
 
 production:
   channels: &production_channels
     - *setup_channels
   dependencies: &production_dependencies
     - *setup_dependencies
+    - molsysmt
     - pyunitwizard
     - openmm
     - nglview
-    - ipywidgets <8
-    - molsysmt
 
 test:
   channels: &test_channels
@@ -34,12 +34,17 @@ docs:
     - *production_channels
   dependencies: &docs_dependencies
     - *production_dependencies
+    - jupyterlab
     - sphinx
-    - sphinx_rtd_theme
+    - pydata-sphinx-theme
     - sphinxcontrib-bibtex
     - sphinx-remove-toctrees
     - sphinx-copybutton
+    - sphinx-design
+    - sphinx-favicon
+    - sphinx-tabs
     - myst-nb
+    - nbsphinx
 
 development:
   channels:
@@ -48,7 +53,7 @@ development:
     - *production_dependencies
     - *test_dependencies
     - *docs_dependencies
-    - jupyterlab
+    - mamba
 
 conda-build:
   channels:
