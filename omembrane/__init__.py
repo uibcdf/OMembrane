@@ -13,7 +13,7 @@ __github_issues_web__ = __github_web__ + '/issues'
 
 from . import lipid
 from . import build
-#from . import analysis
+from . import analysis
 #from . import permeability
-#from .demo import demo
+from .demo import demo
 
