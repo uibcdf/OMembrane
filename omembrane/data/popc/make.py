@@ -9,10 +9,10 @@ def work_lipid(lipid):
         lipid = msm.structure.flip(lipid)
     return lipid
 
-filename = './charmmgui/conf1/popc_1.crd'
+filename = 'popc.psf'
 lipid = msm.convert(filename)
 
-for ii in tqdm(range(2, 1000)):
+for ii in tqdm(range(1, 1000)):
     filename = './charmmgui/conf1/popc_'+str(ii)+'.crd'
     aux_lipid = msm.convert(filename)
     aux_lipid = work_lipid(aux_lipid)
