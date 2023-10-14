@@ -20,7 +20,7 @@ def work_lipid(lipid):
         lipid = msm.structure.flip(lipid)
     return lipid
 
-for lipid_name in ['POPC']: #params.residues:
+for lipid_name in params.residues:
 
     if lipid_name in omem.lipid.name:
         lipid_code = lipid_name.lower()
