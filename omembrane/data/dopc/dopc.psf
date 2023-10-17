@@ -1,0 +1,245 @@
+PSF CHEQ EXT XPLOR
+
+         1 !NTITLE
+
+
+       138 !NATOM
+         1 SYS      1        DOPC     N        NTL     -0.600000        0.0000           
+         2 SYS      1        DOPC     C12      CTL2    -0.100000        0.0000           
+         3 SYS      1        DOPC     H12A     HL       0.250000        0.0000           
+         4 SYS      1        DOPC     H12B     HL       0.250000        0.0000           
+         5 SYS      1        DOPC     C13      CTL5    -0.350000        0.0000           
+         6 SYS      1        DOPC     H13A     HL       0.250000        0.0000           
+         7 SYS      1        DOPC     H13B     HL       0.250000        0.0000           
+         8 SYS      1        DOPC     H13C     HL       0.250000        0.0000           
+         9 SYS      1        DOPC     C14      CTL5    -0.350000        0.0000           
+        10 SYS      1        DOPC     H14A     HL       0.250000        0.0000           
+        11 SYS      1        DOPC     H14B     HL       0.250000        0.0000           
+        12 SYS      1        DOPC     H14C     HL       0.250000        0.0000           
+        13 SYS      1        DOPC     C15      CTL5    -0.350000        0.0000           
+        14 SYS      1        DOPC     H15A     HL       0.250000        0.0000           
+        15 SYS      1        DOPC     H15B     HL       0.250000        0.0000           
+        16 SYS      1        DOPC     H15C     HL       0.250000        0.0000           
+        17 SYS      1        DOPC     C11      CTL2    -0.080000        0.0000           
+        18 SYS      1        DOPC     H11A     HAL2     0.090000        0.0000           
+        19 SYS      1        DOPC     H11B     HAL2     0.090000        0.0000           
+        20 SYS      1        DOPC     P        PL       1.500000        0.0000           
+        21 SYS      1        DOPC     O13      O2L     -0.780000        0.0000           
+        22 SYS      1        DOPC     O14      O2L     -0.780000        0.0000           
+        23 SYS      1        DOPC     O12      OSLP    -0.570000        0.0000           
+        24 SYS      1        DOPC     O11      OSLP    -0.570000        0.0000           
+        25 SYS      1        DOPC     C1       CTL2    -0.080000        0.0000           
+        26 SYS      1        DOPC     HA       HAL2     0.090000        0.0000           
+        27 SYS      1        DOPC     HB       HAL2     0.090000        0.0000           
+        28 SYS      1        DOPC     C2       CTL1     0.170000        0.0000           
+        29 SYS      1        DOPC     HS       HAL1     0.090000        0.0000           
+        30 SYS      1        DOPC     O21      OSL     -0.490000        0.0000           
+        31 SYS      1        DOPC     C21      CL       0.900000        0.0000           
+        32 SYS      1        DOPC     O22      OBL     -0.630000        0.0000           
+        33 SYS      1        DOPC     C22      CTL2    -0.220000        0.0000           
+        34 SYS      1        DOPC     H2R      HAL2     0.090000        0.0000           
+        35 SYS      1        DOPC     H2S      HAL2     0.090000        0.0000           
+        36 SYS      1        DOPC     C3       CTL2     0.080000        0.0000           
+        37 SYS      1        DOPC     HX       HAL2     0.090000        0.0000           
+        38 SYS      1        DOPC     HY       HAL2     0.090000        0.0000           
+        39 SYS      1        DOPC     O31      OSL     -0.490000        0.0000           
+        40 SYS      1        DOPC     C31      CL       0.900000        0.0000           
+        41 SYS      1        DOPC     O32      OBL     -0.630000        0.0000           
+        42 SYS      1        DOPC     C32      CTL2    -0.220000        0.0000           
+        43 SYS      1        DOPC     H2X      HAL2     0.090000        0.0000           
+        44 SYS      1        DOPC     H2Y      HAL2     0.090000        0.0000           
+        45 SYS      1        DOPC     C23      CTL2    -0.180000        0.0000           
+        46 SYS      1        DOPC     H3R      HAL2     0.090000        0.0000           
+        47 SYS      1        DOPC     H3S      HAL2     0.090000        0.0000           
+        48 SYS      1        DOPC     C24      CTL2    -0.180000        0.0000           
+        49 SYS      1        DOPC     H4R      HAL2     0.090000        0.0000           
+        50 SYS      1        DOPC     H4S      HAL2     0.090000        0.0000           
+        51 SYS      1        DOPC     C25      CTL2    -0.180000        0.0000           
+        52 SYS      1        DOPC     H5R      HAL2     0.090000        0.0000           
+        53 SYS      1        DOPC     H5S      HAL2     0.090000        0.0000           
+        54 SYS      1        DOPC     C26      CTL2    -0.180000        0.0000           
+        55 SYS      1        DOPC     H6R      HAL2     0.090000        0.0000           
+        56 SYS      1        DOPC     H6S      HAL2     0.090000        0.0000           
+        57 SYS      1        DOPC     C27      CTL2    -0.180000        0.0000           
+        58 SYS      1        DOPC     H7R      HAL2     0.090000        0.0000           
+        59 SYS      1        DOPC     H7S      HAL2     0.090000        0.0000           
+        60 SYS      1        DOPC     C28      CTL2    -0.180000        0.0000           
+        61 SYS      1        DOPC     H8R      HAL2     0.090000        0.0000           
+        62 SYS      1        DOPC     H8S      HAL2     0.090000        0.0000           
+        63 SYS      1        DOPC     C29      CEL1    -0.150000        0.0000           
+        64 SYS      1        DOPC     H9R      HEL1     0.150000        0.0000           
+        65 SYS      1        DOPC     C210     CEL1    -0.150000        0.0000           
+        66 SYS      1        DOPC     H10R     HEL1     0.150000        0.0000           
+        67 SYS      1        DOPC     C211     CTL2    -0.180000        0.0000           
+        68 SYS      1        DOPC     H11R     HAL2     0.090000        0.0000           
+        69 SYS      1        DOPC     H11S     HAL2     0.090000        0.0000           
+        70 SYS      1        DOPC     C212     CTL2    -0.180000        0.0000           
+        71 SYS      1        DOPC     H12R     HAL2     0.090000        0.0000           
+        72 SYS      1        DOPC     H12S     HAL2     0.090000        0.0000           
+        73 SYS      1        DOPC     C213     CTL2    -0.180000        0.0000           
+        74 SYS      1        DOPC     H13R     HAL2     0.090000        0.0000           
+        75 SYS      1        DOPC     H13S     HAL2     0.090000        0.0000           
+        76 SYS      1        DOPC     C214     CTL2    -0.180000        0.0000           
+        77 SYS      1        DOPC     H14R     HAL2     0.090000        0.0000           
+        78 SYS      1        DOPC     H14S     HAL2     0.090000        0.0000           
+        79 SYS      1        DOPC     C215     CTL2    -0.180000        0.0000           
+        80 SYS      1        DOPC     H15R     HAL2     0.090000        0.0000           
+        81 SYS      1        DOPC     H15S     HAL2     0.090000        0.0000           
+        82 SYS      1        DOPC     C216     CTL2    -0.180000        0.0000           
+        83 SYS      1        DOPC     H16R     HAL2     0.090000        0.0000           
+        84 SYS      1        DOPC     H16S     HAL2     0.090000        0.0000           
+        85 SYS      1        DOPC     C217     CTL2    -0.180000        0.0000           
+        86 SYS      1        DOPC     H17R     HAL2     0.090000        0.0000           
+        87 SYS      1        DOPC     H17S     HAL2     0.090000        0.0000           
+        88 SYS      1        DOPC     C218     CTL3    -0.270000        0.0000           
+        89 SYS      1        DOPC     H18R     HAL3     0.090000        0.0000           
+        90 SYS      1        DOPC     H18S     HAL3     0.090000        0.0000           
+        91 SYS      1        DOPC     H18T     HAL3     0.090000        0.0000           
+        92 SYS      1        DOPC     C33      CTL2    -0.180000        0.0000           
+        93 SYS      1        DOPC     H3X      HAL2     0.090000        0.0000           
+        94 SYS      1        DOPC     H3Y      HAL2     0.090000        0.0000           
+        95 SYS      1        DOPC     C34      CTL2    -0.180000        0.0000           
+        96 SYS      1        DOPC     H4X      HAL2     0.090000        0.0000           
+        97 SYS      1        DOPC     H4Y      HAL2     0.090000        0.0000           
+        98 SYS      1        DOPC     C35      CTL2    -0.180000        0.0000           
+        99 SYS      1        DOPC     H5X      HAL2     0.090000        0.0000           
+       100 SYS      1        DOPC     H5Y      HAL2     0.090000        0.0000           
+       101 SYS      1        DOPC     C36      CTL2    -0.180000        0.0000           
+       102 SYS      1        DOPC     H6X      HAL2     0.090000        0.0000           
+       103 SYS      1        DOPC     H6Y      HAL2     0.090000        0.0000           
+       104 SYS      1        DOPC     C37      CTL2    -0.180000        0.0000           
+       105 SYS      1        DOPC     H7X      HAL2     0.090000        0.0000           
+       106 SYS      1        DOPC     H7Y      HAL2     0.090000        0.0000           
+       107 SYS      1        DOPC     C38      CTL2    -0.180000        0.0000           
+       108 SYS      1        DOPC     H8X      HAL2     0.090000        0.0000           
+       109 SYS      1        DOPC     H8Y      HAL2     0.090000        0.0000           
+       110 SYS      1        DOPC     C39      CEL1    -0.150000        0.0000           
+       111 SYS      1        DOPC     H9X      HEL1     0.150000        0.0000           
+       112 SYS      1        DOPC     C310     CEL1    -0.150000        0.0000           
+       113 SYS      1        DOPC     H10X     HEL1     0.150000        0.0000           
+       114 SYS      1        DOPC     C311     CTL2    -0.180000        0.0000           
+       115 SYS      1        DOPC     H11X     HAL2     0.090000        0.0000           
+       116 SYS      1        DOPC     H11Y     HAL2     0.090000        0.0000           
+       117 SYS      1        DOPC     C312     CTL2    -0.180000        0.0000           
+       118 SYS      1        DOPC     H12X     HAL2     0.090000        0.0000           
+       119 SYS      1        DOPC     H12Y     HAL2     0.090000        0.0000           
+       120 SYS      1        DOPC     C313     CTL2    -0.180000        0.0000           
+       121 SYS      1        DOPC     H13X     HAL2     0.090000        0.0000           
+       122 SYS      1        DOPC     H13Y     HAL2     0.090000        0.0000           
+       123 SYS      1        DOPC     C314     CTL2    -0.180000        0.0000           
+       124 SYS      1        DOPC     H14X     HAL2     0.090000        0.0000           
+       125 SYS      1        DOPC     H14Y     HAL2     0.090000        0.0000           
+       126 SYS      1        DOPC     C315     CTL2    -0.180000        0.0000           
+       127 SYS      1        DOPC     H15X     HAL2     0.090000        0.0000           
+       128 SYS      1        DOPC     H15Y     HAL2     0.090000        0.0000           
+       129 SYS      1        DOPC     C316     CTL2    -0.180000        0.0000           
+       130 SYS      1        DOPC     H16X     HAL2     0.090000        0.0000           
+       131 SYS      1        DOPC     H16Y     HAL2     0.090000        0.0000           
+       132 SYS      1        DOPC     C317     CTL2    -0.180000        0.0000           
+       133 SYS      1        DOPC     H17X     HAL2     0.090000        0.0000           
+       134 SYS      1        DOPC     H17Y     HAL2     0.090000        0.0000           
+       135 SYS      1        DOPC     C318     CTL3    -0.270000        0.0000           
+       136 SYS      1        DOPC     H18X     HAL3     0.090000        0.0000           
+       137 SYS      1        DOPC     H18Y     HAL3     0.090000        0.0000           
+       138 SYS      1        DOPC     H18Z     HAL3     0.090000        0.0000           
+
+       137 !NBOND: bonds
+         1         5         1         9         1        13         5         6
+         5         7         5         8         9        10         9        11
+         9        12        13        14        13        15        13        16
+         1         2         2         3         2         4         2        17
+        17        18        17        19        17        23        24        25
+        23        20        20        24        20        21        20        22
+        25        26        25        27        25        28        28        29
+        28        36        28        30        36        37        36        38
+        36        39        30        31        31        33        31        32
+        33        34        33        35        33        45        45        46
+        45        47        45        48        48        49        48        50
+        48        51        51        52        51        53        51        54
+        54        55        54        56        54        57        57        58
+        57        59        57        60        60        61        60        62
+        60        63        63        64        63        65        65        66
+        65        67        67        68        67        69        67        70
+        70        71        70        72        70        73        73        74
+        73        75        73        76        76        77        76        78
+        76        79        79        80        79        81        79        82
+        82        83        82        84        82        85        85        86
+        85        87        85        88        88        89        88        90
+        88        91        39        40        40        42        40        41
+        42        43        42        44        42        92        92        93
+        92        94        92        95        95        96        95        97
+        95        98        98        99        98       100        98       101
+       101       102       101       103       101       104       104       105
+       104       106       104       107       107       108       107       109
+       107       110       110       111       110       112       112       113
+       112       114       114       115       114       116       114       117
+       117       118       117       119       117       120       120       121
+       120       122       120       123       123       124       123       125
+       123       126       126       127       126       128       126       129
+       129       130       129       131       129       132       132       133
+       132       134       132       135       135       136       135       137
+       135       138
+
+         0 !NTHETA: angles
+
+
+         0 !NPHI: dihedrals
+
+
+         0 !NIMPHI: impropers
+
+
+         0 !NDON: donors
+
+
+         0 !NACC: acceptors
+
+
+         0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0
+
+         1         0 !NGRP NST2
+         0         1         0
+
+         1 !MOLNT
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1
+
+         0         0 !NUMLP NUMLPH
+
+         0 !NCRTERM: cross-terms
+

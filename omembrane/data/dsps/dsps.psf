@@ -1,0 +1,239 @@
+PSF CHEQ EXT XPLOR
+
+         1 !NTITLE
+
+
+       135 !NATOM
+         1 SYS      1        DSPS     N        NH3L    -0.300000        0.0000           
+         2 SYS      1        DSPS     HN1      HCL      0.330000        0.0000           
+         3 SYS      1        DSPS     HN2      HCL      0.330000        0.0000           
+         4 SYS      1        DSPS     HN3      HCL      0.330000        0.0000           
+         5 SYS      1        DSPS     C12      CTL1     0.210000        0.0000           
+         6 SYS      1        DSPS     H12A     HBL      0.100000        0.0000           
+         7 SYS      1        DSPS     C13      CCL      0.340000        0.0000           
+         8 SYS      1        DSPS     O13A     OCL     -0.670000        0.0000           
+         9 SYS      1        DSPS     O13B     OCL     -0.670000        0.0000           
+        10 SYS      1        DSPS     C11      CTL2    -0.080000        0.0000           
+        11 SYS      1        DSPS     H11A     HAL2     0.090000        0.0000           
+        12 SYS      1        DSPS     H11B     HAL2     0.090000        0.0000           
+        13 SYS      1        DSPS     P        PL       1.500000        0.0000           
+        14 SYS      1        DSPS     O13      O2L     -0.780000        0.0000           
+        15 SYS      1        DSPS     O14      O2L     -0.780000        0.0000           
+        16 SYS      1        DSPS     O12      OSLP    -0.570000        0.0000           
+        17 SYS      1        DSPS     O11      OSLP    -0.570000        0.0000           
+        18 SYS      1        DSPS     C1       CTL2    -0.080000        0.0000           
+        19 SYS      1        DSPS     HA       HAL2     0.090000        0.0000           
+        20 SYS      1        DSPS     HB       HAL2     0.090000        0.0000           
+        21 SYS      1        DSPS     C2       CTL1     0.170000        0.0000           
+        22 SYS      1        DSPS     HS       HAL1     0.090000        0.0000           
+        23 SYS      1        DSPS     O21      OSL     -0.490000        0.0000           
+        24 SYS      1        DSPS     C21      CL       0.900000        0.0000           
+        25 SYS      1        DSPS     O22      OBL     -0.630000        0.0000           
+        26 SYS      1        DSPS     C22      CTL2    -0.220000        0.0000           
+        27 SYS      1        DSPS     H2R      HAL2     0.090000        0.0000           
+        28 SYS      1        DSPS     H2S      HAL2     0.090000        0.0000           
+        29 SYS      1        DSPS     C3       CTL2     0.080000        0.0000           
+        30 SYS      1        DSPS     HX       HAL2     0.090000        0.0000           
+        31 SYS      1        DSPS     HY       HAL2     0.090000        0.0000           
+        32 SYS      1        DSPS     O31      OSL     -0.490000        0.0000           
+        33 SYS      1        DSPS     C31      CL       0.900000        0.0000           
+        34 SYS      1        DSPS     O32      OBL     -0.630000        0.0000           
+        35 SYS      1        DSPS     C32      CTL2    -0.220000        0.0000           
+        36 SYS      1        DSPS     H2X      HAL2     0.090000        0.0000           
+        37 SYS      1        DSPS     H2Y      HAL2     0.090000        0.0000           
+        38 SYS      1        DSPS     C23      CTL2    -0.180000        0.0000           
+        39 SYS      1        DSPS     H3R      HAL2     0.090000        0.0000           
+        40 SYS      1        DSPS     H3S      HAL2     0.090000        0.0000           
+        41 SYS      1        DSPS     C24      CTL2    -0.180000        0.0000           
+        42 SYS      1        DSPS     H4R      HAL2     0.090000        0.0000           
+        43 SYS      1        DSPS     H4S      HAL2     0.090000        0.0000           
+        44 SYS      1        DSPS     C25      CTL2    -0.180000        0.0000           
+        45 SYS      1        DSPS     H5R      HAL2     0.090000        0.0000           
+        46 SYS      1        DSPS     H5S      HAL2     0.090000        0.0000           
+        47 SYS      1        DSPS     C26      CTL2    -0.180000        0.0000           
+        48 SYS      1        DSPS     H6R      HAL2     0.090000        0.0000           
+        49 SYS      1        DSPS     H6S      HAL2     0.090000        0.0000           
+        50 SYS      1        DSPS     C27      CTL2    -0.180000        0.0000           
+        51 SYS      1        DSPS     H7R      HAL2     0.090000        0.0000           
+        52 SYS      1        DSPS     H7S      HAL2     0.090000        0.0000           
+        53 SYS      1        DSPS     C28      CTL2    -0.180000        0.0000           
+        54 SYS      1        DSPS     H8R      HAL2     0.090000        0.0000           
+        55 SYS      1        DSPS     H8S      HAL2     0.090000        0.0000           
+        56 SYS      1        DSPS     C29      CTL2    -0.180000        0.0000           
+        57 SYS      1        DSPS     H9R      HAL2     0.090000        0.0000           
+        58 SYS      1        DSPS     H9S      HAL2     0.090000        0.0000           
+        59 SYS      1        DSPS     C210     CTL2    -0.180000        0.0000           
+        60 SYS      1        DSPS     H10R     HAL2     0.090000        0.0000           
+        61 SYS      1        DSPS     H10S     HAL2     0.090000        0.0000           
+        62 SYS      1        DSPS     C211     CTL2    -0.180000        0.0000           
+        63 SYS      1        DSPS     H11R     HAL2     0.090000        0.0000           
+        64 SYS      1        DSPS     H11S     HAL2     0.090000        0.0000           
+        65 SYS      1        DSPS     C212     CTL2    -0.180000        0.0000           
+        66 SYS      1        DSPS     H12R     HAL2     0.090000        0.0000           
+        67 SYS      1        DSPS     H12S     HAL2     0.090000        0.0000           
+        68 SYS      1        DSPS     C213     CTL2    -0.180000        0.0000           
+        69 SYS      1        DSPS     H13R     HAL2     0.090000        0.0000           
+        70 SYS      1        DSPS     H13S     HAL2     0.090000        0.0000           
+        71 SYS      1        DSPS     C214     CTL2    -0.180000        0.0000           
+        72 SYS      1        DSPS     H14R     HAL2     0.090000        0.0000           
+        73 SYS      1        DSPS     H14S     HAL2     0.090000        0.0000           
+        74 SYS      1        DSPS     C215     CTL2    -0.180000        0.0000           
+        75 SYS      1        DSPS     H15R     HAL2     0.090000        0.0000           
+        76 SYS      1        DSPS     H15S     HAL2     0.090000        0.0000           
+        77 SYS      1        DSPS     C216     CTL2    -0.180000        0.0000           
+        78 SYS      1        DSPS     H16R     HAL2     0.090000        0.0000           
+        79 SYS      1        DSPS     H16S     HAL2     0.090000        0.0000           
+        80 SYS      1        DSPS     C217     CTL2    -0.180000        0.0000           
+        81 SYS      1        DSPS     H17R     HAL2     0.090000        0.0000           
+        82 SYS      1        DSPS     H17S     HAL2     0.090000        0.0000           
+        83 SYS      1        DSPS     C218     CTL3    -0.270000        0.0000           
+        84 SYS      1        DSPS     H18R     HAL3     0.090000        0.0000           
+        85 SYS      1        DSPS     H18S     HAL3     0.090000        0.0000           
+        86 SYS      1        DSPS     H18T     HAL3     0.090000        0.0000           
+        87 SYS      1        DSPS     C33      CTL2    -0.180000        0.0000           
+        88 SYS      1        DSPS     H3X      HAL2     0.090000        0.0000           
+        89 SYS      1        DSPS     H3Y      HAL2     0.090000        0.0000           
+        90 SYS      1        DSPS     C34      CTL2    -0.180000        0.0000           
+        91 SYS      1        DSPS     H4X      HAL2     0.090000        0.0000           
+        92 SYS      1        DSPS     H4Y      HAL2     0.090000        0.0000           
+        93 SYS      1        DSPS     C35      CTL2    -0.180000        0.0000           
+        94 SYS      1        DSPS     H5X      HAL2     0.090000        0.0000           
+        95 SYS      1        DSPS     H5Y      HAL2     0.090000        0.0000           
+        96 SYS      1        DSPS     C36      CTL2    -0.180000        0.0000           
+        97 SYS      1        DSPS     H6X      HAL2     0.090000        0.0000           
+        98 SYS      1        DSPS     H6Y      HAL2     0.090000        0.0000           
+        99 SYS      1        DSPS     C37      CTL2    -0.180000        0.0000           
+       100 SYS      1        DSPS     H7X      HAL2     0.090000        0.0000           
+       101 SYS      1        DSPS     H7Y      HAL2     0.090000        0.0000           
+       102 SYS      1        DSPS     C38      CTL2    -0.180000        0.0000           
+       103 SYS      1        DSPS     H8X      HAL2     0.090000        0.0000           
+       104 SYS      1        DSPS     H8Y      HAL2     0.090000        0.0000           
+       105 SYS      1        DSPS     C39      CTL2    -0.180000        0.0000           
+       106 SYS      1        DSPS     H9X      HAL2     0.090000        0.0000           
+       107 SYS      1        DSPS     H9Y      HAL2     0.090000        0.0000           
+       108 SYS      1        DSPS     C310     CTL2    -0.180000        0.0000           
+       109 SYS      1        DSPS     H10X     HAL2     0.090000        0.0000           
+       110 SYS      1        DSPS     H10Y     HAL2     0.090000        0.0000           
+       111 SYS      1        DSPS     C311     CTL2    -0.180000        0.0000           
+       112 SYS      1        DSPS     H11X     HAL2     0.090000        0.0000           
+       113 SYS      1        DSPS     H11Y     HAL2     0.090000        0.0000           
+       114 SYS      1        DSPS     C312     CTL2    -0.180000        0.0000           
+       115 SYS      1        DSPS     H12X     HAL2     0.090000        0.0000           
+       116 SYS      1        DSPS     H12Y     HAL2     0.090000        0.0000           
+       117 SYS      1        DSPS     C313     CTL2    -0.180000        0.0000           
+       118 SYS      1        DSPS     H13X     HAL2     0.090000        0.0000           
+       119 SYS      1        DSPS     H13Y     HAL2     0.090000        0.0000           
+       120 SYS      1        DSPS     C314     CTL2    -0.180000        0.0000           
+       121 SYS      1        DSPS     H14X     HAL2     0.090000        0.0000           
+       122 SYS      1        DSPS     H14Y     HAL2     0.090000        0.0000           
+       123 SYS      1        DSPS     C315     CTL2    -0.180000        0.0000           
+       124 SYS      1        DSPS     H15X     HAL2     0.090000        0.0000           
+       125 SYS      1        DSPS     H15Y     HAL2     0.090000        0.0000           
+       126 SYS      1        DSPS     C316     CTL2    -0.180000        0.0000           
+       127 SYS      1        DSPS     H16X     HAL2     0.090000        0.0000           
+       128 SYS      1        DSPS     H16Y     HAL2     0.090000        0.0000           
+       129 SYS      1        DSPS     C317     CTL2    -0.180000        0.0000           
+       130 SYS      1        DSPS     H17X     HAL2     0.090000        0.0000           
+       131 SYS      1        DSPS     H17Y     HAL2     0.090000        0.0000           
+       132 SYS      1        DSPS     C318     CTL3    -0.270000        0.0000           
+       133 SYS      1        DSPS     H18X     HAL3     0.090000        0.0000           
+       134 SYS      1        DSPS     H18Y     HAL3     0.090000        0.0000           
+       135 SYS      1        DSPS     H18Z     HAL3     0.090000        0.0000           
+
+       134 !NBOND: bonds
+         1         2         1         3         1         4         1         5
+         9         7         7         5         7         8         5         6
+         5        10        18        17        10        11        10        12
+        10        16        16        13        13        17        13        14
+        13        15        18        19        18        20        18        21
+        21        22        21        29        21        23        29        30
+        29        31        29        32        23        24        24        26
+        24        25        26        27        26        28        26        38
+        38        39        38        40        38        41        41        42
+        41        43        41        44        44        45        44        46
+        44        47        47        48        47        49        47        50
+        50        51        50        52        50        53        53        54
+        53        55        53        56        56        57        56        58
+        56        59        59        60        59        61        59        62
+        62        63        62        64        62        65        65        66
+        65        67        65        68        68        69        68        70
+        68        71        71        72        71        73        71        74
+        74        75        74        76        74        77        77        78
+        77        79        77        80        80        81        80        82
+        80        83        83        84        83        85        83        86
+        32        33        33        35        33        34        35        36
+        35        37        35        87        87        88        87        89
+        87        90        90        91        90        92        90        93
+        93        94        93        95        93        96        96        97
+        96        98        96        99        99       100        99       101
+        99       102       102       103       102       104       102       105
+       105       106       105       107       105       108       108       109
+       108       110       108       111       111       112       111       113
+       111       114       114       115       114       116       114       117
+       117       118       117       119       117       120       120       121
+       120       122       120       123       123       124       123       125
+       123       126       126       127       126       128       126       129
+       129       130       129       131       129       132       132       133
+       132       134       132       135
+
+         0 !NTHETA: angles
+
+
+         0 !NPHI: dihedrals
+
+
+         0 !NIMPHI: impropers
+
+
+         0 !NDON: donors
+
+
+         0 !NACC: acceptors
+
+
+         0 !NNB
+
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0         0
+         0         0         0         0         0         0         0
+
+         1         0 !NGRP NST2
+         0         1         0
+
+         1 !MOLNT
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1         1
+         1         1         1         1         1         1         1
+
+         0         0 !NUMLP NUMLPH
+
+         0 !NCRTERM: cross-terms
+
