@@ -22,7 +22,7 @@ def get_random_lipid(name, n_lipids=1):
 
     if name=='POPC':
 
-        lipid = msm.convert(path('omembrane.data.popc','popc.msmpk'))
+        lipid = msm.convert(path('omembrane.data','popc.h5msm'))
 
         n_structures = msm.get(lipid, n_structures=True)
 
