@@ -3,7 +3,7 @@ import numpy as np
 import sys
 import gc
 
-if sys.version_info[1]==10:
+if sys.version_info[1]>=10:
     from importlib.resources import files
     def path(package, file):
         return files(package).joinpath(file)
