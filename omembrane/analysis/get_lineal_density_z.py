@@ -2,15 +2,24 @@ import molsysmt as msm
 from molsysmt import pyunitwizard as puw
 import numpy as np
 
-def get_lineal_density(molecular_system, selection, structure_index=0,
-        axis=[0,0,1], bins=100, normalized=False, frequency=False,
-        weights=None, box_origin='[0,0,0] nanometers', box_center=None, center_of_selection=False,
+def get_lineal_density_z(molecular_system, selection, structure_index=0, bins=100, normalized=False, frequency=False,
+        weights=None, box_z_origin='0 nanometers', box_z_center=None, center_of_selection=False,
         center_coordinates=None, syntax='MolSysMT'):
 
     length_unit = puw.get_standard_units(dimensionality={'[L]':1})
 
     box = msm.get(molecular_system, structure_indices=structure_index, box=True)
     box = puw.convert(box, to_unit=length_unit)
+
+    box_origin = None
+    if box_z_origin is not None:
+        value = puw.get_value(box_z_origin, to_unit=length_unit)
+        box_origin = puw.quantity([0,0,value], length_unit)
+
+    box_center = None
+    if box_z_center is not None:
+        value = puw.get_value(box_z_center, to_unit=length_unit)
+        box_center = puw.quantity([0,0,value], length_unit)
 
     atom_indices = msm.select(molecular_system, selection=selection, syntax=syntax)
     coordinates = msm.get(molecular_system, selection=atom_indices, structure_indices=structure_index, coordinates=True)
@@ -30,7 +39,7 @@ def get_lineal_density(molecular_system, selection, structure_index=0,
             for kk in [0,1]:
 
                 vertex = ii*box[structure_index][0]+jj*box[structure_index][1]+kk*box[structure_index][2]
-                proj = np.dot(vertex, axis)
+                proj = vertex[2]
 
                 if proj<min_q:
                     min_q = proj
@@ -42,7 +51,7 @@ def get_lineal_density(molecular_system, selection, structure_index=0,
     freq = np.zeros(bins)
 
     for aux_coordinates in coordinates[0,:]:
-        proj = np.dot(aux_coordinates, axis)
+        proj = aux_coordinates[2]
         bin_index = int(np.floor((proj - min_q)/bin_length))
         freq[bin_index]+=1
 
